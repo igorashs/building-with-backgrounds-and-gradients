@@ -72,6 +72,7 @@ nav ul li {
 nav li,
 .search-bar {
   background: linear-gradient(
+    0deg,
     rgb(104, 104, 104),
     rgb(94, 94, 94) 50%,
     rgb(112, 112, 112) 50%,
@@ -92,9 +93,10 @@ nav li,
   width: 80%;
   height: 60%;
   border: 0;
-  box-shadow: inset 0 1px 1px 1px rgb(48, 48, 48);
+  box-shadow: inset 0 1px 1px 1px rgb(48, 48, 48),
+    inset 0 -1px 1px 1px rgb(128, 128, 128);
   border-radius: 10px;
-  background-color: transparent;
+  background-color: rgba(130, 130, 130, 0.32);
   background-image: url('images/magnify.svg');
   background-position: 5px 5px;
 }
