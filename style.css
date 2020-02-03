@@ -11,3 +11,46 @@
 html {
   font-size: 10px;
 }
+
+/* wrapper */
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 645px;
+  background-color: grey;
+}
+
+nav {
+  width: 70%;
+  height: 40px;
+  margin-top: 10rem;
+  background-color: rgb(66, 194, 62);
+}
+
+header {
+  width: 50%;
+  height: 300px;
+  margin-top: 10rem;
+  background-color: rgb(75, 102, 0);
+}
+
+.promos {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(173, 61, 61);
+}
+
+footer {
+  width: 70%;
+  height: 80px;
+  margin: 0 auto;
+  background-color: blueviolet;
+}
