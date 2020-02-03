@@ -2,7 +2,7 @@
 
 > ## From The Odin Project's [curriculum](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
 
-> - [Live Demo]() **SOON** :shipit:
+> - [Live Demo](https://igorashs.github.io/building-with-backgrounds-and-gradients/) :shipit:
 
 ## Assignment
 
