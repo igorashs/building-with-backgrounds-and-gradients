@@ -15,6 +15,7 @@ html {
 /* wrapper */
 .wrapper {
   max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   min-height: 100vh;
 }
@@ -25,7 +26,7 @@ html {
   align-items: center;
   width: 100%;
   height: 645px;
-  background-color: rgb(58, 3, 53);
+  background: url('images/hero.jpg') bottom;
 }
 
 /* nav */
@@ -54,10 +55,11 @@ nav a {
 }
 
 nav li:hover a {
+  border-color: transparent;
   background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
 }
 
-nav ul:first-child a {
+nav li:first-child a {
   border-left: 0;
 }
 
@@ -96,6 +98,8 @@ nav li,
   background-image: url('images/magnify.svg');
   background-position: 5px 5px;
 }
+
+/* header */
 
 header {
   width: 50%;
