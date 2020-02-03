@@ -102,10 +102,25 @@ nav li,
 /* header */
 
 header {
-  width: 50%;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
   margin-top: 10rem;
-  background-color: rgb(75, 102, 0);
+}
+
+header img:nth-child(2) {
+  margin-top: -10px;
+}
+
+header img:last-child {
+  height: 32px;
+  margin-top: 2rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+header img:last-child:hover {
+  object-position: bottom;
+  cursor: pointer;
 }
 
 .promos {
