@@ -7,3 +7,6 @@
 ## Assignment
 
 > Create a copy of old version of [apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/).
+
+## License
+This project is licensed under the MIT License
